@@ -12,10 +12,10 @@ If you find any bugs or have any requested add in, let me know.
 
 ## Using the Plotter
 
-1. Build your model. This does not have to be a complete model that can be analysed. This way you can monitor the gradual progression of your model as you build. 
+1. Build your model. This does not have to be a complete model that can be analysed; a bunch of floating nodes is fine for example. This way you can monitor the gradual progression of your model as you build. 
 2. Once you have built your model, use the “print” command in OpenSees to print the entire model to a text file. In the example provided, this is at the end of the file where inserting the command “print model.txt” and then executing the file “Frame_model.tcl” in OpenSees produces the required file for this plotter.
 3. Once you have your model.txt file in your directory, ensure that you have all of the Matlab files provided here on your current Matlab directory. 
-4. Now you can use the “model_plot” function. The required input are described in the file but if you just type “help model_plot” of Matlab it will print them on the command window. 5. Once you execute the “model_plot” function with the relevant inputs in Matlab, it will ask you to select the “model.txt” file that OpenSees produced. Load that and the plotter will plot a 3D figure of your model to examine. Use the camera tools available in Matlab (View>Camera Toolbar) to rotate the model etc.
+4. Now you can use the “model_plot” function. The required input are described in the file but if you just type “help model_plot” in the Matlab command window it will print them. 5. Once you execute the “model_plot” function with the relevant inputs in Matlab, it will ask you to select the “model.txt” file that OpenSees produced. Load that and the plotter will plot a 3D figure of your model to examine. Use the camera tools available in Matlab (View>Camera Toolbar) to rotate the model etc.
 
 Additionally, you can use this plotter to examine the mode shapes of your building. 
 1. You need to perform a modal analysis of your structure using the “modalAnalysis.tcl” TCL procedure provided. Using this procedure within you model will return the modal values on screen in addition to producing two files: a file containing the eigenvectors and another listing the periods of vibration.
