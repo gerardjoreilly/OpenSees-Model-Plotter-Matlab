@@ -6,6 +6,8 @@ The only file the user needs to look at is “model_plot.m”, all the others ar
 
 It is not a GUI, but rather a simple tool that allows the user to plot and examine the model being developed with a single command from Matlab. It works for models developed in either 2D or 3D, although it has been mainly used and tested for 3D models. It is capable of plotting mode shapes also that are generated using the “modalAnalysis.tcl” procedure provided. 
 
+There is an example provided with the “Frame_model.tcl”, where by running this file, the necessary input to use this plotter will be provided as a first example of how to implement it.
+
 If you find any bugs or have any requested add in, let me know.
 
 ## Using the Plotter
