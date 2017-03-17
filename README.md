@@ -22,11 +22,11 @@ Additionally, you can use this plotter to examine the mode shapes of your buildi
 
 ## Available Elements:
 The following elements will be plotted:
-	ForceBeamColumn (2D and 3D)
-	ElasticBeamColumn (2D and 3D)
-	ZeroLength
-	Truss
-	CorotTrussSection
+ForceBeamColumn (2D and 3D)
+ElasticBeamColumn (2D and 3D)
+ZeroLength
+Truss
+CorotTrussSection
 
 If you use any element that is not listed above, the plotter will not plot it.
 
