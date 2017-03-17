@@ -1,0 +1,1486 @@
+Current Domain Information
+	Current Time: 0
+tCommitted Time: 0
+
+NODE DATA: NumNodes: 36
+
+ Node: 110
+	Coordinates  : 0 0 0 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+
+	ID : -1 -1 -1 -1 -1 -1 
+
+
+ Node: 111
+	Coordinates  : 0 0 3 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0104242 -0.000464555 0.0103903 0.010224 -0.008846 
+0.000464555 -0.0104242 -0.0103903 0.010224 -0.00183969 
+-0.000210627 -0.000230275 2.30905e-18 0.000247035 -6.82957e-05 
+-0.000169138 0.00379529 0.00224931 -0.00224638 0.000221584 
+-0.00379529 -0.000169138 0.00224931 0.00224638 -0.00107812 
+7.9936e-18 1.0842e-17 0.00171624 -4.93746e-18 -0.00210783 
+
+	ID : 156 157 158 159 160 161 
+
+
+ Node: 112
+	Coordinates  : 0 0 6 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0244671 -0.00109038 0.0217666 0.021699 -0.0174348 
+0.00109038 -0.0244671 -0.0217666 0.021699 -0.00363606 
+-0.00032876 -0.00035943 4.4739e-18 0.000374584 -0.000101152 
+-0.000140958 0.00316296 0.00168348 -0.00172731 0.000166809 
+-0.00316296 -0.000140958 0.00168348 0.00172731 -0.000783555 
+1.34299e-17 2.0383e-17 0.00324287 -1.08847e-17 -0.00389152 
+
+	ID : 150 151 152 153 154 155 
+
+
+ Node: 113
+	Coordinates  : 0 0 9 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0337876 -0.00150575 0.0284107 0.0285469 -0.022304 
+0.00150575 -0.0337876 -0.0284107 0.0285469 -0.00465661 
+-0.000367954 -0.000402279 5.77372e-18 0.000411164 -0.000109297 
+-7.821e-05 0.00175496 0.00071695 -0.000759984 7.5388e-05 
+-0.00175496 -7.821e-05 0.00071695 0.000759984 -0.000308544 
+1.56555e-17 1.9082e-17 0.00413504 -1.10102e-17 -0.00490749 
+
+	ID : 132 133 134 135 136 137 
+
+
+ Node: 120
+	Coordinates  : 0 5 0 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+
+	ID : -1 -1 -1 -1 -1 -1 
+
+
+ Node: 121
+	Coordinates  : 0 5 3 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0104242 -0.000464555 1.08366e-16 7.34807e-17 0.0177385 
+0.00046523 -0.0104393 -0.0103986 0.0102153 -0.00194384 
+-0.000220451 -9.82444e-06 1.34678e-18 5.34435e-19 0.000112018 
+-0.000122407 0.00274669 0.00183163 -0.00183529 0.00021088 
+-0.00379529 -0.000169138 3.67816e-17 2.0014e-17 0.00216312 
+1.5556e-17 6.07153e-18 0.00194845 0.000887236 0.000326956 
+
+	ID : 144 145 146 147 148 149 
+
+
+ Node: 122
+	Coordinates  : 0 5 6 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0244671 -0.00109038 2.40259e-16 1.47441e-16 0.0349564 
+0.00108994 -0.0244573 -0.0217653 0.0216648 -0.00382978 
+-0.000344095 -1.53347e-05 1.79402e-18 4.19164e-19 0.000165909 
+-0.000110648 0.00248283 0.00140921 -0.00145479 0.000154525 
+-0.00316296 -0.000140958 2.12775e-17 3.62674e-18 0.00156945 
+2.99688e-17 1.12757e-17 0.00371911 0.00168378 0.000611646 
+
+	ID : 126 127 128 129 130 131 
+
+
+ Node: 123
+	Coordinates  : 0 5 9 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0337876 -0.00150575 2.90133e-16 1.40953e-16 0.0447169 
+0.00150442 -0.0337578 -0.0284075 0.0285017 -0.00489921 
+-0.000385116 -1.71628e-05 2.07354e-18 1.53473e-19 0.000179269 
+-5.05307e-05 0.00113386 0.00057234 -0.000623843 6.00784e-05 
+-0.00175496 -7.821e-05 1.73472e-18 -1.11292e-17 0.000613538 
+4.15449e-17 8.67362e-18 0.0047616 0.00215395 0.000775369 
+
+	ID : 96 97 98 99 100 101 
+
+
+ Node: 130
+	Coordinates  : 0 10 0 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+
+	ID : -1 -1 -1 -1 -1 -1 
+
+
+ Node: 131
+	Coordinates  : 0 10 3 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0104242 -0.000464555 -0.0103903 -0.010224 -0.00889249 
+0.000464555 -0.0104242 -0.0103903 0.010224 -0.00205162 
+-0.000230275 0.000210627 2.11723e-19 -0.000247035 -4.37222e-05 
+-0.000169138 0.00379529 0.00224931 -0.00224638 0.000252942 
+-0.00379529 -0.000169138 -0.00224931 -0.00224638 -0.001085 
+1.65364e-17 1.27936e-17 0.00171624 2.33847e-18 0.00329251 
+
+	ID : 114 115 116 117 118 119 
+
+
+ Node: 132
+	Coordinates  : 0 10 6 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0244671 -0.00109038 -0.0217666 -0.021699 -0.0175217 
+0.00109038 -0.0244671 -0.0217666 0.021699 -0.00403237 
+-0.00035943 0.00032876 -9.50243e-19 -0.000374584 -6.47567e-05 
+-0.000140958 0.00316296 0.00168348 -0.00172731 0.000177483 
+-0.00316296 -0.000140958 -0.00168348 -0.00172731 -0.000785896 
+3.28686e-17 2.34188e-17 0.00324287 3.6318e-18 0.00607869 
+
+	ID : 84 85 86 87 88 89 
+
+
+ Node: 133
+	Coordinates  : 0 10 9 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0337876 -0.00150575 -0.0284107 -0.0285469 -0.0224129 
+0.00150575 -0.0337876 -0.0284107 0.0285469 -0.00515298 
+-0.000402279 0.000367954 -2.30427e-18 -0.000411164 -6.99711e-05 
+-7.821e-05 0.00175496 0.00071695 -0.000759984 5.92043e-05 
+-0.00175496 -7.821e-05 -0.00071695 -0.000759984 -0.000304994 
+4.87147e-17 2.25514e-17 0.00413504 1.04978e-17 0.00766567 
+
+	ID : 54 55 56 57 58 59 
+
+
+ Node: 210
+	Coordinates  : 5 0 0 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+
+	ID : -1 -1 -1 -1 -1 -1 
+
+
+ Node: 211
+	Coordinates  : 5 0 3 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0104393 -0.00046523 0.0103986 0.0102153 -0.00886096 
+0.000464555 -0.0104242 -5.72459e-17 8.48865e-17 0.00389131 
+9.82444e-06 -0.000220451 3.79471e-19 -9.98033e-19 2.45735e-05 
+-0.000169138 0.00379529 2.25514e-17 -2.52496e-17 -0.000474526 
+-0.00274669 -0.000122407 0.00183163 0.00183529 -0.000961293 
+1.00758e-17 0 0.00194845 -0.000887236 -0.00149042 
+
+	ID : 138 139 140 141 142 143 
+
+
+ Node: 212
+	Coordinates  : 5 0 6 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0244573 -0.00108994 0.0217653 0.0216648 -0.017458 
+0.00109038 -0.0244671 -9.36751e-17 1.0076e-16 0.00766843 
+1.53347e-05 -0.000344095 1.13841e-18 -2.74054e-18 3.63956e-05 
+-0.000140958 0.00316296 -1.04083e-17 2.38723e-17 -0.000344292 
+-0.00248283 -0.000110648 0.00140921 0.00145479 -0.000704399 
+1.75695e-17 -2.60209e-18 0.00371911 -0.00168378 -0.00278818 
+
+	ID : 120 121 122 123 124 125 
+
+
+ Node: 213
+	Coordinates  : 5 0 9 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0337578 -0.00150442 0.0284075 0.0285017 -0.022333 
+0.00150575 -0.0337876 -2.08167e-17 -3.66559e-17 0.00980959 
+1.71628e-05 -0.000385116 1.78893e-18 -3.88682e-18 3.93263e-05 
+-7.821e-05 0.00175496 -3.23092e-17 4.62828e-17 -0.000134592 
+-0.00113386 -5.05307e-05 0.00057234 0.000623843 -0.000273867 
+2.14979e-17 -1.21431e-17 0.0047616 -0.00215395 -0.00353451 
+
+	ID : 90 91 92 93 94 95 
+
+
+ Node: 220
+	Coordinates  : 5 5 0 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+
+	ID : -1 -1 -1 -1 -1 -1 
+
+
+ Node: 221
+	Coordinates  : 5 5 3 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0104393 -0.00046523 1.1189e-16 7.084e-17 0.0177219 
+0.00046523 -0.0104393 -5.89806e-17 8.24353e-17 0.00388768 
+1.03003e-19 -4.80491e-20 -5.42663e-20 2.42784e-20 -5.73392e-20 
+-0.000122407 0.00274669 1.47451e-17 -1.571e-17 -0.00042176 
+-0.00274669 -0.000122407 2.61293e-17 1.47174e-17 0.00192259 
+1.44858e-17 4.33681e-19 0.00198421 -7.72309e-19 -4.21392e-18 
+
+	ID : 108 109 110 111 112 113 
+
+
+ Node: 222
+	Coordinates  : 5 5 6 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0244573 -0.00108994 2.55872e-16 1.48674e-16 0.034916 
+0.00108994 -0.0244573 -9.71445e-17 1.0224e-16 0.00765955 
+1.36861e-19 -1.49158e-20 -6.55769e-20 -1.00577e-20 3.38366e-20 
+-0.000110648 0.00248283 -7.37257e-18 1.75097e-17 -0.000309049 
+-0.00248283 -0.000110648 1.587e-17 3.21489e-18 0.0014088 
+2.87312e-17 -1.30104e-18 0.00382519 -4.5368e-18 -5.00882e-18 
+
+	ID : 78 79 80 81 82 83 
+
+
+ Node: 223
+	Coordinates  : 5 5 9 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0337578 -0.00150442 2.78857e-16 1.37674e-16 0.0446659 
+0.00150442 -0.0337578 -2.08167e-17 -4.08781e-17 0.00979841 
+1.60982e-19 6.28409e-20 -8.89633e-20 -5.43497e-20 2.06003e-20 
+-5.05307e-05 0.00113386 -1.64799e-17 2.61303e-17 -0.000120157 
+-0.00113386 -5.05307e-05 1.93124e-18 -5.65487e-18 0.000547733 
+4.03482e-17 -9.54098e-18 0.00491519 -2.3621e-18 -3.04171e-18 
+
+	ID : 48 49 50 51 52 53 
+
+
+ Node: 230
+	Coordinates  : 5 10 0 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+
+	ID : -1 -1 -1 -1 -1 -1 
+
+
+ Node: 231
+	Coordinates  : 5 10 3 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0104393 -0.00046523 -0.0103986 -0.0102153 -0.00886096 
+0.000464555 -0.0104242 -5.89806e-17 8.56497e-17 0.00389131 
+-9.82444e-06 0.000220451 -3.25261e-19 1.13737e-18 -2.45735e-05 
+-0.000169138 0.00379529 2.34188e-17 -2.58464e-17 -0.000474526 
+-0.00274669 -0.000122407 -0.00183163 -0.00183529 -0.000961293 
+1.46431e-17 4.33681e-19 0.00194845 -0.000887236 0.00149042 
+
+	ID : 66 67 68 69 70 71 
+
+
+ Node: 232
+	Coordinates  : 5 10 6 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0244573 -0.00108994 -0.0217653 -0.0216648 -0.017458 
+0.00109038 -0.0244671 -9.71445e-17 1.03786e-16 0.00766843 
+-1.53347e-05 0.000344095 -1.24683e-18 2.89392e-18 -3.63956e-05 
+-0.000140958 0.00316296 -8.23994e-18 2.20304e-17 -0.000344292 
+-0.00248283 -0.000110648 -0.00140921 -0.00145479 -0.000704399 
+2.93696e-17 -1.30104e-18 0.00371911 -0.00168378 0.00278818 
+
+	ID : 36 37 38 39 40 41 
+
+
+ Node: 233
+	Coordinates  : 5 10 9 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0337578 -0.00150442 -0.0284075 -0.0285017 -0.022333 
+0.00150575 -0.0337876 -2.77556e-17 -4.3588e-17 0.00980959 
+-1.71628e-05 0.000385116 -2.05998e-18 3.99298e-18 -3.93263e-05 
+-7.821e-05 0.00175496 -3.27429e-17 4.93151e-17 -0.000134592 
+-0.00113386 -5.05307e-05 -0.00057234 -0.000623843 -0.000273867 
+4.29875e-17 -1.04083e-17 0.0047616 -0.00215395 0.00353451 
+
+	ID : 18 19 20 21 22 23 
+
+
+ Node: 310
+	Coordinates  : 10 0 0 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+
+	ID : -1 -1 -1 -1 -1 -1 
+
+
+ Node: 311
+	Coordinates  : 10 0 3 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0104242 -0.000464555 0.0103903 0.010224 -0.00889249 
+0.000464555 -0.0104242 0.0103903 -0.010224 -0.00205162 
+0.000230275 -0.000210627 -1.03511e-18 -0.000247035 4.37222e-05 
+-0.000169138 0.00379529 -0.00224931 0.00224638 0.000252942 
+-0.00379529 -0.000169138 0.00224931 0.00224638 -0.001085 
+8.30582e-18 -1.34441e-17 0.00171624 -5.56539e-18 -0.00329251 
+
+	ID : 102 103 104 105 106 107 
+
+
+ Node: 312
+	Coordinates  : 10 0 6 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0244671 -0.00109038 0.0217666 0.021699 -0.0175217 
+0.00109038 -0.0244671 0.0217666 -0.021699 -0.00403237 
+0.00035943 -0.00032876 -6.24983e-19 -0.000374584 6.47567e-05 
+-0.000140958 0.00316296 -0.00168348 0.00172731 0.000177483 
+-0.00316296 -0.000140958 0.00168348 0.00172731 -0.000785896 
+1.44751e-17 -2.77556e-17 0.00324287 -1.23273e-17 -0.00607869 
+
+	ID : 72 73 74 75 76 77 
+
+
+ Node: 313
+	Coordinates  : 10 0 9 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0337876 -0.00150575 0.0284107 0.0285469 -0.0224129 
+0.00150575 -0.0337876 0.0284107 -0.0285469 -0.00515298 
+0.000402279 -0.000367954 2.67626e-20 -0.000411164 6.99711e-05 
+-7.821e-05 0.00175496 -0.00071695 0.000759984 5.92043e-05 
+-0.00175496 -7.821e-05 0.00071695 0.000759984 -0.000304994 
+1.5307e-17 -3.81639e-17 0.00413504 -1.88471e-17 -0.00766567 
+
+	ID : 42 43 44 45 46 47 
+
+
+ Node: 320
+	Coordinates  : 10 5 0 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+
+	ID : -1 -1 -1 -1 -1 -1 
+
+
+ Node: 321
+	Coordinates  : 10 5 3 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0104242 -0.000464555 1.10318e-16 7.20205e-17 0.0177385 
+0.00046523 -0.0104393 0.0103986 -0.0102153 -0.00194384 
+0.000220451 9.82444e-06 -1.51111e-18 -3.56759e-19 -0.000112018 
+-0.000122407 0.00274669 -0.00183163 0.00183529 0.00021088 
+-0.00379529 -0.000169138 3.9465e-17 2.19393e-17 0.00216312 
+1.67485e-17 -7.15573e-18 0.00194845 0.000887236 -0.000326956 
+
+	ID : 60 61 62 63 64 65 
+
+
+ Node: 322
+	Coordinates  : 10 5 6 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0244671 -0.00109038 2.64762e-16 1.494e-16 0.0349564 
+0.00108994 -0.0244573 0.0217653 -0.0216648 -0.00382978 
+0.000344095 1.53347e-05 -2.08709e-18 -1.44939e-19 -0.000165909 
+-0.000110648 0.00248283 -0.00140921 0.00145479 0.000154525 
+-0.00316296 -0.000140958 2.13317e-17 3.89822e-18 0.00156945 
+3.23419e-17 -1.60462e-17 0.00371911 0.00168378 -0.000611646 
+
+	ID : 30 31 32 33 34 35 
+
+
+ Node: 323
+	Coordinates  : 10 5 9 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0337876 -0.00150575 2.93168e-16 1.40528e-16 0.0447169 
+0.00150442 -0.0337578 0.0284075 -0.0285017 -0.00489921 
+0.000385116 1.71628e-05 -2.23617e-18 9.37273e-20 -0.000179269 
+-5.05307e-05 0.00113386 -0.00057234 0.000623843 6.00784e-05 
+-0.00175496 -7.821e-05 -2.00577e-18 -1.2305e-17 0.000613538 
+4.41796e-17 -2.25514e-17 0.0047616 0.00215395 -0.000775369 
+
+	ID : 12 13 14 15 16 17 
+
+
+ Node: 330
+	Coordinates  : 10 10 0 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+
+	ID : -1 -1 -1 -1 -1 -1 
+
+
+ Node: 331
+	Coordinates  : 10 10 3 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0104242 -0.000464555 -0.0103903 -0.010224 -0.008846 
+0.000464555 -0.0104242 0.0103903 -0.010224 -0.00183969 
+0.000210627 0.000230275 -1.45856e-18 0.000247035 6.82957e-05 
+-0.000169138 0.00379529 -0.00224931 0.00224638 0.000221584 
+-0.00379529 -0.000169138 -0.00224931 -0.00224638 -0.00107812 
+1.81592e-17 -1.23599e-17 0.00171624 2.69445e-18 0.00210783 
+
+	ID : 24 25 26 27 28 29 
+
+
+ Node: 332
+	Coordinates  : 10 10 6 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0244671 -0.00109038 -0.0217666 -0.021699 -0.0174348 
+0.00109038 -0.0244671 0.0217666 -0.021699 -0.00363606 
+0.00032876 0.00035943 -2.73604e-18 0.000374584 0.000101152 
+-0.000140958 0.00316296 -0.00168348 0.00172731 0.000166809 
+-0.00316296 -0.000140958 -0.00168348 -0.00172731 -0.000783555 
+3.61832e-17 -2.51535e-17 0.00324287 3.19979e-18 0.00389152 
+
+	ID : 6 7 8 9 10 11 
+
+
+ Node: 333
+	Coordinates  : 10 10 9 
+	Disps: 0 0 0 0 0 0 
+	Velocities   : 0 0 0 0 0 0 
+	commitAccels: 0 0 0 0 0 0 
+	 unbalanced Load: 0 0 0 0 0 0 
+	Mass : 
+60 0 0 0 0 0 
+0 60 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+	 Rayleigh Factor: alphaM: 0
+	 Rayleigh Forces: 0 0 0 0 0 0 
+	 Eigenvectors: 
+-0.0337876 -0.00150575 -0.0284107 -0.0285469 -0.022304 
+0.00150575 -0.0337876 0.0284107 -0.0285469 -0.00465661 
+0.000367954 0.000402279 -3.22516e-18 0.000411164 0.000109297 
+-7.821e-05 0.00175496 -0.00071695 0.000759984 7.5388e-05 
+-0.00175496 -7.821e-05 -0.00071695 -0.000759984 -0.000308544 
+5.24428e-17 -3.38271e-17 0.00413504 4.59828e-18 0.00490749 
+
+	ID : 0 1 2 3 4 5 
+
+
+ELEMENT DATA: NumEle: 63
+
+ElasticBeam3d: 5111
+	Connected Nodes: 110 111 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5112
+	Connected Nodes: 111 112 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5113
+	Connected Nodes: 112 113 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5121
+	Connected Nodes: 120 121 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5122
+	Connected Nodes: 121 122 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5123
+	Connected Nodes: 122 123 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5131
+	Connected Nodes: 130 131 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5132
+	Connected Nodes: 131 132 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5133
+	Connected Nodes: 132 133 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5211
+	Connected Nodes: 210 211 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5212
+	Connected Nodes: 211 212 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5213
+	Connected Nodes: 212 213 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5221
+	Connected Nodes: 220 221 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5222
+	Connected Nodes: 221 222 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5223
+	Connected Nodes: 222 223 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5231
+	Connected Nodes: 230 231 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5232
+	Connected Nodes: 231 232 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5233
+	Connected Nodes: 232 233 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5311
+	Connected Nodes: 310 311 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5312
+	Connected Nodes: 311 312 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5313
+	Connected Nodes: 312 313 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5321
+	Connected Nodes: 320 321 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5322
+	Connected Nodes: 321 322 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5323
+	Connected Nodes: 322 323 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5331
+	Connected Nodes: 330 331 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5332
+	Connected Nodes: 331 332 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 5333
+	Connected Nodes: 332 333 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7111
+	Connected Nodes: 111 211 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7112
+	Connected Nodes: 112 212 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7113
+	Connected Nodes: 113 213 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7121
+	Connected Nodes: 121 221 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7122
+	Connected Nodes: 122 222 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7123
+	Connected Nodes: 123 223 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7131
+	Connected Nodes: 131 231 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7132
+	Connected Nodes: 132 232 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7133
+	Connected Nodes: 133 233 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7211
+	Connected Nodes: 211 311 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7212
+	Connected Nodes: 212 312 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7213
+	Connected Nodes: 213 313 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7221
+	Connected Nodes: 221 321 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7222
+	Connected Nodes: 222 322 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7223
+	Connected Nodes: 223 323 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7231
+	Connected Nodes: 231 331 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7232
+	Connected Nodes: 232 332 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 7233
+	Connected Nodes: 233 333 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8111
+	Connected Nodes: 111 121 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8112
+	Connected Nodes: 112 122 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8113
+	Connected Nodes: 113 123 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8121
+	Connected Nodes: 121 131 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8122
+	Connected Nodes: 122 132 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8123
+	Connected Nodes: 123 133 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8211
+	Connected Nodes: 211 221 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8212
+	Connected Nodes: 212 222 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8213
+	Connected Nodes: 213 223 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8221
+	Connected Nodes: 221 231 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8222
+	Connected Nodes: 222 232 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8223
+	Connected Nodes: 223 233 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8311
+	Connected Nodes: 311 321 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8312
+	Connected Nodes: 312 322 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8313
+	Connected Nodes: 313 323 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8321
+	Connected Nodes: 321 331 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8322
+	Connected Nodes: 322 332 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+ElasticBeam3d: 8323
+	Connected Nodes: 323 333 
+	CoordTransf: 2
+	mass density:  0, cMass: 0
+	End 1 Forces (P Mz Vy My Vz T): 0 0 0 0 0 -0
+	End 2 Forces (P Mz Vy My Vz T): 0 0 0 0 0 0
+
+SP_Constraints: numConstraints: 54
+SP_Constraint: 0	 Node: 110 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 1	 Node: 110 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 2	 Node: 110 DOF: 3 ref value: 0 current value: 0
+SP_Constraint: 3	 Node: 110 DOF: 4 ref value: 0 current value: 0
+SP_Constraint: 4	 Node: 110 DOF: 5 ref value: 0 current value: 0
+SP_Constraint: 5	 Node: 110 DOF: 6 ref value: 0 current value: 0
+SP_Constraint: 6	 Node: 210 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 7	 Node: 210 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 8	 Node: 210 DOF: 3 ref value: 0 current value: 0
+SP_Constraint: 9	 Node: 210 DOF: 4 ref value: 0 current value: 0
+SP_Constraint: 10	 Node: 210 DOF: 5 ref value: 0 current value: 0
+SP_Constraint: 11	 Node: 210 DOF: 6 ref value: 0 current value: 0
+SP_Constraint: 12	 Node: 310 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 13	 Node: 310 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 14	 Node: 310 DOF: 3 ref value: 0 current value: 0
+SP_Constraint: 15	 Node: 310 DOF: 4 ref value: 0 current value: 0
+SP_Constraint: 16	 Node: 310 DOF: 5 ref value: 0 current value: 0
+SP_Constraint: 17	 Node: 310 DOF: 6 ref value: 0 current value: 0
+SP_Constraint: 18	 Node: 120 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 19	 Node: 120 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 20	 Node: 120 DOF: 3 ref value: 0 current value: 0
+SP_Constraint: 21	 Node: 120 DOF: 4 ref value: 0 current value: 0
+SP_Constraint: 22	 Node: 120 DOF: 5 ref value: 0 current value: 0
+SP_Constraint: 23	 Node: 120 DOF: 6 ref value: 0 current value: 0
+SP_Constraint: 24	 Node: 220 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 25	 Node: 220 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 26	 Node: 220 DOF: 3 ref value: 0 current value: 0
+SP_Constraint: 27	 Node: 220 DOF: 4 ref value: 0 current value: 0
+SP_Constraint: 28	 Node: 220 DOF: 5 ref value: 0 current value: 0
+SP_Constraint: 29	 Node: 220 DOF: 6 ref value: 0 current value: 0
+SP_Constraint: 30	 Node: 320 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 31	 Node: 320 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 32	 Node: 320 DOF: 3 ref value: 0 current value: 0
+SP_Constraint: 33	 Node: 320 DOF: 4 ref value: 0 current value: 0
+SP_Constraint: 34	 Node: 320 DOF: 5 ref value: 0 current value: 0
+SP_Constraint: 35	 Node: 320 DOF: 6 ref value: 0 current value: 0
+SP_Constraint: 36	 Node: 130 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 37	 Node: 130 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 38	 Node: 130 DOF: 3 ref value: 0 current value: 0
+SP_Constraint: 39	 Node: 130 DOF: 4 ref value: 0 current value: 0
+SP_Constraint: 40	 Node: 130 DOF: 5 ref value: 0 current value: 0
+SP_Constraint: 41	 Node: 130 DOF: 6 ref value: 0 current value: 0
+SP_Constraint: 42	 Node: 230 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 43	 Node: 230 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 44	 Node: 230 DOF: 3 ref value: 0 current value: 0
+SP_Constraint: 45	 Node: 230 DOF: 4 ref value: 0 current value: 0
+SP_Constraint: 46	 Node: 230 DOF: 5 ref value: 0 current value: 0
+SP_Constraint: 47	 Node: 230 DOF: 6 ref value: 0 current value: 0
+SP_Constraint: 48	 Node: 330 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 49	 Node: 330 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 50	 Node: 330 DOF: 3 ref value: 0 current value: 0
+SP_Constraint: 51	 Node: 330 DOF: 4 ref value: 0 current value: 0
+SP_Constraint: 52	 Node: 330 DOF: 5 ref value: 0 current value: 0
+SP_Constraint: 53	 Node: 330 DOF: 6 ref value: 0 current value: 0
+
+Pressure_Constraints: numConstraints: 0
+
+MP_Constraints: numConstraints: 0
+
+LOAD PATTERNS: numPatterns: 0
+
+
+PARAMETERS: numParameters: 0
+
