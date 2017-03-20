@@ -1,5 +1,6 @@
 function [Nd,Coord,Disp,Mass]=node_plot_3Df(fname,fpath)
 % Script to plot a 3D model
+% Copyright by Gerard J. O'Reilly, 2017
 % Written: Gerard J. O'Reilly
 % Last Updated: Feb 2015
 

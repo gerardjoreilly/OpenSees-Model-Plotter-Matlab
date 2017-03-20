@@ -1,5 +1,6 @@
 function []=model_plot(dims,vw,Npf,Epf,Xamp,Yamp,Zamp,eig)
 %% Function to plot either a 2D or 3D model from OpenSees
+% Copyright by Gerard J. O'Reilly, 2017
 % Written: Gerard J. O'Reilly
 % Date: February 2014
 % Last Updated: March 2017

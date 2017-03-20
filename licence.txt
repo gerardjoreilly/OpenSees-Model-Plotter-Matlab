@@ -1,0 +1,13 @@
+Copyright (C) 2017  Gerard J. O'Reilly
+
+All of these programs are copyrighted under the GNU General Public License
+as published by the Free Software Foundation, version 2. In short, you can
+employ them freely (assuming you cite the original source and the relevant
+publication) but if you want to build upon, extend or re-distribute them,
+then the derivative software products will also have to be covered under
+the GPL (i.e. be free software). Other licensing options are negotiable.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.

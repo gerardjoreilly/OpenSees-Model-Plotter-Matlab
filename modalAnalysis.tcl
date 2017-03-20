@@ -1,6 +1,7 @@
 # --------------------------------------
 # Eigen value analysis
 # --------------------------------------
+# Copyright by Gerard J. O'Reilly, 2017
 # Written: Gerard J. O'Reilly
 # Date: February 2015
 # Last Updated: March 2017

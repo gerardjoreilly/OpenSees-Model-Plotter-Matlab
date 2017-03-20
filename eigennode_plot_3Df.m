@@ -1,5 +1,6 @@
 function [Nd,Coord,eDisp]=eigennode_plot_3Df(fname,fpath,nmds)
 % Script to get eigenmodes of a 3D model
+% Copyright by Gerard J. O'Reilly, 2017
 % Written: Gerard J. O'Reilly
 % Last Updated: Feb 2015
 
