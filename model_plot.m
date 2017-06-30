@@ -30,7 +30,7 @@ fs1=14;
 
 %% Arguments Stuff
 if nargin==0
-    fprintf('model_plot(dims,vw,Npf,Epf,sflag,Xamp,Yamp,Zamp,eig)\n');
+    fprintf('model_plot(dims,vw,Npf,Epf,Xamp,Yamp,Zamp,eig)\n');
     fprintf('dims: 	no. of dimensions in model (2 or 3)\n');
     fprintf('vw:       View (xy, xz, yz, 3d)\n');
     fprintf('Npf:      node label plot flag (1 for labels, 0 for none)\n');
@@ -49,6 +49,10 @@ if nargin<5
 end
 
 %% Prompt for the input files
+fprintf('----- 1. Select model file\n');
+fprintf('----- 2. Select eigenvector file\n');
+fprintf('----- 3. Select periods file\n');
+
 [fname,fpath]=uigetfile('*.txt','Select model:');
 
 if eig>0
@@ -344,7 +348,7 @@ if eig>0
         end
     elseif dims==3
         for mds=1:eig
-            figure; hold on; box on;
+            figure; hold on; box on; grid on;
             for i=1:nelms
                 if strcmp(Typ{i,1},'ForceBeamColumn3d')==1
                     clr='b'; lw=lw1;
@@ -398,7 +402,7 @@ if eig>0
             xlabel('X-Coordinates'); %xlim([min(coord(:,1)+eDisp{mds,1}(:,1)*Xamp) max(coord(:,1)+eDisp{mds,1}(:,1)*Xamp)]);
             ylabel('Y-Coordinates'); 
             zlabel('Z-Coordinates'); %zlim([min(coord(:,3)+eDisp{mds,1}(:,3)*Zamp) max(coord(:,3)+eDisp{mds,1}(:,3)*Zamp)]);
-            title(sprintf('Mode %d  T=%1.3fs',mds,periods(mds)),'fontsize',20);
+            title(sprintf('Mode %d  T=%1.3fs f=%1.3fs',mds,periods(mds),1/periods(mds)),'fontsize',20);
         end
     end
 end
