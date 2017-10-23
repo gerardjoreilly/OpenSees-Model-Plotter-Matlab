@@ -79,6 +79,7 @@ node	131		0.0				[expr 2*$B]		$H				-mass	$M		$M		0.0		0.0		0.0		0.0
 node	231		$B				[expr 2*$B]		$H				-mass	$M		$M		0.0		0.0		0.0		0.0
 node	331		[expr 2*$B]		[expr 2*$B]		$H				-mass	$M		$M		0.0		0.0		0.0		0.0
 
+
 # Second Level
 # node	tag		X				Y				Z				-mass	mX		mY		mZ 		IX 		IY 		IZ
 node	112		0.0				0.0				[expr 2*$H]		-mass	$M		$M		0.0		0.0		0.0		0.0
@@ -120,6 +121,10 @@ fix		320		1	1	1	1	1	1
 fix		130		1	1	1	1	1	1
 fix		230		1	1	1	1	1	1
 fix		330		1	1	1	1	1	1
+
+rigidDiaphragm 3	111 211 311 121 321 131 231 331
+rigidDiaphragm 3	112 212 312 122 322 132 232 332
+rigidDiaphragm 3	113 213 313 123 323 133 233 333
 
 # --------------------------------------
 # Geometric Transformation
@@ -229,7 +234,7 @@ element elasticBeamColumn 	8323 		323 	333		$Ac $E 	$G 	$Jc $Iyc $Iyc 	2
 # Modal Analysis
 # --------------------------------------
 source modalAnalysis.tcl
-modalAnalysis 5 1 "_modal"
+modalAnalysis 7 1 "_modal"
 
 # --------------------------------------
 # Print the model

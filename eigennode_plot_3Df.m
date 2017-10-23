@@ -1,18 +1,14 @@
 function [Nd,Coord,eDisp]=eigennode_plot_3Df(fname,fpath,nmds)
 % Script to get eigenmodes of a 3D model
 % Copyright by Gerard J. O'Reilly, 2017
-% Written: Gerard J. O'Reilly
-% Last Updated: Feb 2015
 
-% close all; clear all; clc;
-% [fname,fpath]=uigetfile('*.txt','Select eigennode file  ');
-% nmds=6;
-
+% Get the length of the eigenvector file and open it
 n=linecount(fullfile(fpath,fname));
 fid=fopen(fullfile(fpath,fname),'r');
 out=textscan(fid,'%s','delimiter','\n');
 fclose(fid);
 
+% Initialise some arrays to append to 
 Nd=[];
 Coord=[];
 uDisp=cell(nmds,1);
@@ -20,6 +16,8 @@ eDisp=cell(nmds,1);
 for i=1:nmds
     uDisp{i,1}=[];
 end
+
+% Sift through the eigenvector files
 for i=1:n-1
     a=strmatch('Node',out{1,1}(i,:)); % Look for Nodes
     if isempty(a)==0
@@ -50,6 +48,7 @@ for i=1:n-1
 
 end
 
+% Normalise the modes
 for i=1:nmds
     q1=max(max(uDisp{i,1}));
     q2=min(min(uDisp{i,1}));
