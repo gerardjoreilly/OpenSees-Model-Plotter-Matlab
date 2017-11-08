@@ -43,3 +43,11 @@ Constraints are not plotted.
 When plotting mode shapes, element element deformations (i.e. section curvatures along member) are not plotted.
 
 You can also use this to plot the final state of a model after a pushover or dynamic analysis has been performed. Just put a print command at the point in the TCL model where the analysis is finished and procedure as if it were the “model.txt” file described above.
+
+# Licensing
+Copyright (C) 2017  Gerard J. O'Reilly
+
+All of these programs are copyrighted under the GNU General Public License as published by the Free Software Foundation, version 2. In short, you can employ them freely (assuming you cite the original source and the relevant publication) but if you want to build upon, extend or re-distribute them, then the derivative software products will also have to be covered under the GPL (i.e. be free software). Other licensing options are negotiable.
+
+# Disclaimer
+These programs are distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
