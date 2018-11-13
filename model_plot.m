@@ -1,11 +1,11 @@
-function []=model_plot(vw,Npf,Epf,Xamp,Yamp,Zamp,eig)
+function [T,phi_mds,Mnstar]=model_plot(vw,Npf,Epf,Xamp,Yamp,Zamp,eig,node_list)
 %% Function to plot a 3D model from OpenSees
 % Copyright by Gerard J. O'Reilly, 2017
 % Written: Gerard J. O'Reilly
 % Date Created: February 2014
 %
 % ---------------- INPUTS ------------------
-% model_plot(vw,Npf,Epf,Xamp,Yamp,Zamp,eig)
+% [T,phi_mds,Mnstar]=model_plot(vw,Npf,Epf,Xamp,Yamp,Zamp,node_list)
 % vw:       View Plane (xy, xz, yz or 3d)
 % Npf:      node label plot flag (1 for labels, 0 for none)
 % Epf:      element label plot flag (1 for labels, 0 for none)
@@ -13,6 +13,20 @@ function []=model_plot(vw,Npf,Epf,Xamp,Yamp,Zamp,eig)
 % Yamp:     Amplification on Ycoord disps
 % Zamp:     Amplification on Zcoord disps
 % eig:      number of mode shapes, 0 to do nothing
+% node_list:list of nodes to return the modal displacements at, returns a
+%           cell with eig number of cells and node_list x ndf array in each
+
+% clear;
+% clc;
+% vw='3d';
+% Npf=0;
+% Epf=0;
+% Xamp=1;
+% Yamp=1;
+% Zamp=1;
+% eig=0;
+% mds=[];
+% nargin=10;
 
 %% Plotting variables
 lw1=2.0;
@@ -23,7 +37,7 @@ fs1=14;
 
 %% Arguments Stuff
 if nargin==0
-    fprintf('model_plot(vw,Npf,Epf,Xamp,Yamp,Zamp,eig)\n');
+    fprintf('[T,phi_mds,Mnstar]=model_plot(vw,Npf,Epf,Xamp,Yamp,Zamp,eig,node_list)\n');
     fprintf('vw:       View (xy, xz, yz, 3d)\n');
     fprintf('Npf:      node label plot flag (1 for labels, 0 for none)\n');
     fprintf('Epf:      element label plot flag (1 for labels, 0 for none)\n');
@@ -31,6 +45,9 @@ if nargin==0
     fprintf('Yamp:     Amplification on Ycoord disps\n');
     fprintf('Zamp:     Amplification on Zcoord disps\n');
     fprintf('eig:      number of mode shapes, 0 to do nothing\n');
+    fprintf('node_list:list of nodes to return the modal displacements at, returns a\n');
+    fprintf('          cell with eig number of cells and node_list x ndf array in each\n\n');
+    
     error('No input args');
 end
 if nargin<4
@@ -38,12 +55,15 @@ if nargin<4
     Yamp=1;
     Zamp=1;
     eig=0;
+    mds=[];
 end
 
 %% Prompt for the input files
 fprintf('----- 1. Select model file\n');
-fprintf('----- 2. Select eigenvector file\n');
-fprintf('----- 3. Select periods file\n');
+if eig>0
+    fprintf('----- 2. Select eigenvector file\n');
+    fprintf('----- 3. Select periods file\n');
+end
 
 [fname,fpath]=uigetfile('*.txt','Select model:');
 
@@ -87,16 +107,16 @@ for i=1:n-1
             jNd=[jNd; temp2{3}]; 
             Typ{end+1,1}='ZeroLength';
         end
-        cc=strfind(out{1,1}(i,:),'Truss'); % Look for Truss elements
-        if isempty(cc{1,1})==0
-            % found a Truss so extract more info
-%             fprintf('found Truss at line: %d\n',i);
-            temp1=textscan(out{1}{i},'Element: %d type: Truss  iNode: %d jNode: %d Area: %f Mass/Length: %f cMass: %f ');
-            ele=[ele; temp1{1}];
-            iNd=[iNd; temp1{2}];
-            jNd=[jNd; temp1{3}];
-            Typ{end+1,1}='Truss';
-        end
+%         cc=strfind(out{1,1}(i,:),'Truss'); % Look for Truss elements
+%         if isempty(cc{1,1})==0
+%             % found a Truss so extract more info
+% %             fprintf('found Truss at line: %d\n',i);
+%             temp1=textscan(out{1}{i},'Element: %d type: Truss  iNode: %d jNode: %d Area: %f Mass/Length: %f cMass: %f ');
+%             ele=[ele; temp1{1}];
+%             iNd=[iNd; temp1{2}];
+%             jNd=[jNd; temp1{3}];
+%             Typ{end+1,1}='Truss';
+%         end
     end
     d=strmatch('ElasticBeam3d',out{1,1}(i,:)); % Look for Elastic Elements
     if isempty(d)==0
@@ -120,6 +140,16 @@ for i=1:n-1
         Typ{end+1,1}='CorotTrussSection';
     end
     
+    g=strfind(out{1,1}(i,:),'TrussSection'); % Look for TrussSection Elements
+    if g{:}>0
+        fprintf('TrussSection at line: %d\n',i);
+        temp5=textscan(out{1}{i},'Element: %d type: TrussSection  iNode: %d jNode: %d Mass density/length: %f cMass: %f ');  
+        ele=[ele; temp5{1}];
+        iNd=[iNd; temp5{2}];
+        jNd=[jNd; temp5{3}];
+        Typ{end+1,1}='TrussSection';
+    end
+    
 end
 
 %% Condense all together
@@ -130,9 +160,10 @@ nelms=length(elms);
 [node, coord, disp, mass]=node_plot_3Df(fname,fpath);
 
 % Needed this for debugging
-% if sum(disp)==0
-%     disp=zeros(length(node),3);
-% end
+if sum(disp)==0
+%     warning('Model building/debugging mode');
+    disp=zeros(length(node),3);
+end
 
 %% Get the modal properties
 % This will need the output of the modalAnalysis.tcl procedure
@@ -144,24 +175,35 @@ if eig>0
     [~,~,phi]=eigennode_plot_3Df(fname_en,fpath_en,eig);
 end
 
+%% Extract the mode shapes
+if eig>0 && isempty(node_list)==0 % Do if requested
+   phi_mds=cell(eig,1); % Initialise the cell
+   for i=1:eig
+       for j=1:length(node_list)
+           phi_mds{i}(j,:)=phi{i}(find(node_list(j)==node),:);
+       end
+   end
+end
+
 %% Do some computation
 % Set up the mass matrix
-M=diag(reshape(mass',length(mass)*6,1));
+[lmass,~]=size(mass);
+M=diag(reshape(mass',lmass*6,1));
 
 % Compute the total mass
-Mtotal=sum(reshape(mass',length(mass)*6,1));
+Mtotal=sum(reshape(mass',lmass*6,1));
 
 % Get the influence vector
 temp=mass./mass; % get the dofs with mass
 temp(isnan(temp))=0; % remove nans
-r=reshape(temp',length(temp)*6,1);
+r=reshape(temp',lmass*6,1);
 
 for mds=1:eig
     % Compute the modal mass
-    Mn(mds)=reshape(phi{mds}',length(phi{mds})*6,1)'*M*reshape(phi{mds}',length(phi{mds})*6,1);
+    Mn(mds)=reshape(phi{mds}',lmass*6,1)'*M*reshape(phi{mds}',lmass*6,1);
 
     % Compute modal participation factor
-    Ln(mds)=reshape(phi{mds}',length(phi{mds})*6,1)'*M*r;
+    Ln(mds)=reshape(phi{mds}',lmass*6,1)'*M*r;
     
     % Compute the normalised effective modal mass
     Mnstar(mds)=Ln(mds)^2/Mn(mds)/Mtotal;
@@ -223,9 +265,9 @@ elseif vw=='yz'
 elseif vw=='3d'
     view(-37.5,30);
 end
-xlabel('X-Coordinates'); xlim([min(coord(:,1)+disp(:,1)*Xamp) max(coord(:,1)+disp(:,1)*Xamp)]);
+xlabel('X-Coordinates'); xlim([min(coord(:,1)+disp(:,1)*Xamp)-0.0001 max(coord(:,1)+disp(:,1)*Xamp)+0.0001]);
 ylabel('Y-Coordinates'); 
-zlabel('Z-Coordinates'); zlim([min(coord(:,3)+disp(:,3)*Zamp) max(coord(:,3)+disp(:,3)*Zamp)]);
+zlabel('Z-Coordinates'); zlim([min(coord(:,3)+disp(:,3)*Zamp)-0.0001 max(coord(:,3)+disp(:,3)*Zamp)+0.0001]);
 
 %% Plot the Mode Shapes
 if eig>0
@@ -294,4 +336,14 @@ if eig>0
     for mds=1:eig
         fprintf('%s%d%s%.3f%s%.3f%s%.1f%s%.1f\n','  ',mds,'    ',T(mds),'   ',1/T(mds),'    ',Mnstar(mds)*100,'   ',sum(Mnstar(1:mds))*100)
     end
+    if isempty(node_list)==0
+        for mds=1:eig
+            fprintf('%s%d%s\n','Mode: ',mds,' ==============================');
+            fprintf('%s\n','DOF:     1      2      3      4      5      6');
+            for j=1:length(node_list)
+                fprintf('%s%s\n','       ',num2str(phi_mds{mds}(j,:),'%.3f  '));
+            end
+        end
+    end
+    
 end
