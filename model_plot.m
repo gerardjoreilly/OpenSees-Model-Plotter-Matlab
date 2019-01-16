@@ -16,16 +16,18 @@ function [T,phi_mds,Mnstar]=model_plot(vw,Npf,Epf,Xamp,Yamp,Zamp,eig,node_list)
 % node_list:list of nodes to return the modal displacements at, returns a
 %           cell with eig number of cells and node_list x ndf array in each
 
+% cd /Volumes/GoogleDrive/'My Drive'/Projects/'2018 - INFRA-NAT'/'05-Risk Model'/03-Vulnerability/Italy/'x Andres'/Britney/'eseguibili britney'/O46/46_357_aa_modello.zip
+% cd /Volumes/GoogleDrive/'My Drive'/Projects/'2018 - INFRA-NAT'/'05-Risk Model'/03-Vulnerability/Italy/'x Andres'/Britney/'eseguibili britney'/O48/48_358_aa_modello.zip
 % clear;
 % clc;
 % vw='3d';
 % Npf=0;
 % Epf=0;
-% Xamp=1;
-% Yamp=1;
-% Zamp=1;
-% eig=0;
-% mds=[];
+% Xamp=10;
+% Yamp=10;
+% Zamp=10;
+% eig=3;
+% node_list=[];
 % nargin=10;
 
 %% Plotting variables
@@ -142,12 +144,33 @@ for i=1:n-1
     
     g=strfind(out{1,1}(i,:),'TrussSection'); % Look for TrussSection Elements
     if g{:}>0
-        fprintf('TrussSection at line: %d\n',i);
+%         fprintf('TrussSection at line: %d\n',i);
         temp5=textscan(out{1}{i},'Element: %d type: TrussSection  iNode: %d jNode: %d Mass density/length: %f cMass: %f ');  
         ele=[ele; temp5{1}];
         iNd=[iNd; temp5{2}];
         jNd=[jNd; temp5{3}];
         Typ{end+1,1}='TrussSection';
+    end
+    
+    g=strfind(out{1,1}(i,:),'FlatSliderSimple3d'); % Look for FlatSliderSimple3d Elements
+    if g{:}>0
+%         fprintf('FlatSliderSimple3d at line: %d\n',i);
+        temp5=textscan(out{1}{i},'Element: %d  type: FlatSliderSimple3d  iNode: %d  jNode: %d');  
+        ele=[ele; temp5{1}];
+        iNd=[iNd; temp5{2}];
+        jNd=[jNd; temp5{3}];
+        Typ{end+1,1}='FlatSliderSimple3d';
+    end
+    
+    g=strfind(out{1,1}(i,:),'TwoNodeLink'); % Look for TwoNodeLink Elements
+    if g{:}>0
+%         fprintf('TwoNodeLink at line: %d\n',i);
+        temp5=textscan(out{1}{i-1},'Element: %d'); 
+        temp6=textscan(out{1}{i+1},'  iNode: %d, jNode: %d'); 
+        ele=[ele; temp5{1}];
+        iNd=[iNd; temp6{1}];
+        jNd=[jNd; temp6{2}];
+        Typ{end+1,1}='TwoNodeLink';
     end
     
 end
@@ -223,6 +246,10 @@ for i=1:nelms
         clr='g'; lw=lw1;
     elseif strcmp(Typ{i,1},'Truss')==1
         clr=[1 .5 0]; lw=lw1;
+    elseif strcmp(Typ{i,1},'TwoNodeLink')==1
+        clr='m'; lw=lw1;
+    elseif strcmp(Typ{i,1},'Truss')==1
+        clr='c'; lw=lw1;
     else 
         clr='k'; lw=lw1;
     end
@@ -282,6 +309,12 @@ if eig>0
                 clr='r'; lw=lw1;
             elseif strcmp(Typ{i,1},'CorotTrussSection')==1
                 clr='g'; lw=lw1;
+            elseif strcmp(Typ{i,1},'Truss')==1
+                clr=[1 .5 0]; lw=lw1;
+            elseif strcmp(Typ{i,1},'TwoNodeLink')==1
+                clr='m'; lw=lw1;
+            elseif strcmp(Typ{i,1},'Truss')==1
+                clr='c'; lw=lw1;
             else 
                 clr='k'; lw=lw1;
             end
