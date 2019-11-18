@@ -177,7 +177,7 @@ end
 
 %% Condense all together
 elms=[ele, iNd, jNd];
-nelms=length(elms);
+[nelms, ~]=size(elms);
 
 %% Get the node coordinates
 [node, coord, disp, mass]=node_plot_3Df(fname,fpath);
