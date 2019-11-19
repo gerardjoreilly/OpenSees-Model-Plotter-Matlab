@@ -16,20 +16,6 @@ function [T,phi_mds,Mnstar]=model_plot(vw,Npf,Epf,Xamp,Yamp,Zamp,eig,node_list)
 % node_list:list of nodes to return the modal displacements at, returns a
 %           cell with eig number of cells and node_list x ndf array in each
 
-% cd /Volumes/GoogleDrive/'My Drive'/Projects/'2018 - INFRA-NAT'/'05-Risk Model'/03-Vulnerability/Italy/'x Andres'/Britney/'eseguibili britney'/O46/46_357_aa_modello.zip
-% cd /Volumes/GoogleDrive/'My Drive'/Projects/'2018 - INFRA-NAT'/'05-Risk Model'/03-Vulnerability/Italy/'x Andres'/Britney/'eseguibili britney'/O48/48_358_aa_modello.zip
-% clear;
-% clc;
-% vw='3d';
-% Npf=0;
-% Epf=0;
-% Xamp=10;
-% Yamp=10;
-% Zamp=10;
-% eig=3;
-% node_list=[];
-% nargin=10;
-
 %% Plotting variables
 lw1=2.0;
 lw2=1.5;
@@ -109,16 +95,16 @@ for i=1:n-1
             jNd=[jNd; temp2{3}]; 
             Typ{end+1,1}='ZeroLength';
         end
-%         cc=strfind(out{1,1}(i,:),'Truss'); % Look for Truss elements
-%         if isempty(cc{1,1})==0
-%             % found a Truss so extract more info
-% %             fprintf('found Truss at line: %d\n',i);
-%             temp1=textscan(out{1}{i},'Element: %d type: Truss  iNode: %d jNode: %d Area: %f Mass/Length: %f cMass: %f ');
-%             ele=[ele; temp1{1}];
-%             iNd=[iNd; temp1{2}];
-%             jNd=[jNd; temp1{3}];
-%             Typ{end+1,1}='Truss';
-%         end
+        cc=strfind(out{1,1}(i,:),'Truss'); % Look for Truss elements
+        if isempty(cc{1,1})==0
+            % found a Truss so extract more info
+%             fprintf('found Truss at line: %d\n',i);
+            temp1=textscan(out{1}{i},'Element: %d type: Truss  iNode: %d jNode: %d Area: %f Mass/Length: %f cMass: %f ');
+            ele=[ele; temp1{1}];
+            iNd=[iNd; temp1{2}];
+            jNd=[jNd; temp1{3}];
+            Typ{end+1,1}='Truss';
+        end
     end
     d=strmatch('ElasticBeam3d',out{1,1}(i,:)); % Look for Elastic Elements
     if isempty(d)==0
